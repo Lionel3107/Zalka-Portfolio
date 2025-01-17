@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { 
   Briefcase, Award, 
-  Lightbulb, Tool, Cog,
+  Lightbulb, Cog,
   TestTube // Replacing Flask with TestTube
 } from 'lucide-react';
 
@@ -33,8 +33,10 @@ const Experience = () => {
       description: "Conducted research on improving industrial heating system efficiency",
       icon: TestTube, // Using TestTube instead of Flask
       tags: ["Thermodynamics", "Data Analysis", "Energy Efficiency"],
-      image: "https://images.unsplash.com/photo-1581093458791-9f3c3900df4b"
+      image: "https://images.unsplash.com/photo-1565043589221-1a6fd9ae45c7"
+
     }
+
   ];
 
   return (
