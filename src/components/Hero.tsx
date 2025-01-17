@@ -60,7 +60,7 @@ const Hero = () => {
             <div className="relative w-64 h-64 mx-auto">
               <img
                 src="src/images/WhatsApp Image 2025-01-07 at 12.51.10.jpeg"
-                alt="Sarah Anderson"
+                alt="Zalika Mare"
                 className="rounded-full w-full h-full object-cover shadow-2xl"
               />
               <div className="absolute inset-0 rounded-full border-4 border-sage opacity-20"></div>
