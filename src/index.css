@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-forest: #2C5530;
+    --color-brown: #8B4513;
+    --color-sage: #9CAF88;
+    --color-wheat: #F5DEB3;
+  }
+
+  body {
+    @apply bg-wheat-50;
+  }
+}
+
+@layer components {
+  .section-title {
+    @apply text-4xl font-bold mb-8 text-forest relative;
+  }
+
+  .section-title::after {
+    content: '';
+    @apply absolute bottom-0 left-0 w-24 h-1 bg-sage;
+  }
+
+  .leaf-pattern {
+    background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M30 30c0-9.94-8.06-18-18-18' stroke='%239CAF88' stroke-width='2' fill='none' stroke-opacity='.1'/%3E%3C/svg%3E");
+  }
+}
+
+.gradient-bg {
+  background: linear-gradient(135deg, var(--color-forest), var(--color-sage));
+}
